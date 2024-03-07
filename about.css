@@ -146,4 +146,152 @@ body {
   .quote {
     padding-bottom: 40px;
   }
+}.title {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center; /* Add text-align: center; */
+}
+
+.header {
+  background-color: #f3d9fa;
+  padding: 20px 30px;
+  text-align: center; /* Add text-align: center; */
+}
+
+.description {
+  font-size: 22px;
+  line-height: 30px;
+  padding: 20px 15px;
+  box-shadow: 0 20px 15px rgba(0, 0, 0, 0.4);
+}
+
+.time {
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.images {
+  height: 280px;
+  width: 300px;
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.4);
+  margin: 20px 25px;
+}
+
+.images:hover {
+  transform: translateY(15px);
+}
+
+.images:hover:before {
+  opacity: 1;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 10px;
+  background-color: #d2cbce;
+}
+
+.time-table {
+  text-align: center;
+  list-style-type: none;
+  background-color: #BBD6B8;
+  padding: 10px 0;
+  font-size: 20px;
+  font-weight: 600;
+}
+.time-table li {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.schedule {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+li {
+  margin: 30px;
+}
+
+body {
+  background-color: #f3f0ff;
+}
+.time,.schedule{
+   text-align: center;
+   margin: 60px;
+   font-size: 50px;
+   color: rgb(7, 86, 205);
+}
+.quote {
+  font-size: 22px;
+  margin: 10px;
+  padding: 0 10px;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  color: red;
+}
+
+/* Add the following CSS rules to center the headings */
+.heading {
+  text-align: center;
+}
+@media screen and (max-width: 1024px) {
+  .container {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+  }
+  .time,.schedule{
+    text-align: center;
+    margin: 30px;
+    font-size: 30px;
+ }
+
+  .images {
+    height: 200px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .description {
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .time-table {
+    font-size: 18px;
+    padding: 5px 10px;
+  }
+  .quote {
+    padding-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+
+  .images {
+    height: 200px;
+    width: 250px;
+  }
+
+  .description {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .time-table {
+    font-size: 16px;
+    padding: 2px 10px;
+  }
+  .quote {
+    padding-bottom: 40px;
+  }
 }
