@@ -11,9 +11,12 @@ body {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    background-color:#D4E2D4;
+    background-color:#8062D6;
     color: #fff;
     padding: 10px;
+    border-bottom: 1px solid #000;
+    border-top: 1px solid #000;
+    
 }
   
 .menu-icon {
@@ -71,7 +74,7 @@ body {
     align-items: center;
     justify-content: center;
     padding: 20px;
-    background-color: #F3FDE8;
+    background-color: #DFCCFB;
     text-align: center;
 }
 

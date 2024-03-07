@@ -47,12 +47,17 @@
 }
 
 .time-table {
-  display: flex;
-  justify-content: space-evenly;
-  background-color: #eb8108;
+  text-align: center;
+  list-style-type: none;
+  background-color: #BBD6B8;
+  padding: 10px 0;
   font-size: 20px;
-  box-shadow: 0 8px 13px rgba(0, 0, 0, 0.4);
-  margin-bottom: 20px; /* Add margin bottom */
+  font-weight: 600;
+}
+.time-table li {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  margin-bottom: 10px;
 }
 
 .schedule {
